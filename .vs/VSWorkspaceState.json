@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StudyGrowth",
+    "\\StudyGrowth\\StudyGrowth",
+    "\\StudyGrowth\\StudyGrowth\\src"
   ],
-  "SelectedNode": "\\StudyGrowth.sln",
+  "SelectedNode": "\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
   "PreviewInSolutionExplorer": false
 }

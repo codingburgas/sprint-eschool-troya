@@ -26,10 +26,6 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
@@ -50,7 +46,7 @@
               "RelativeDocumentMoniker": "StudyGrowth\\src\\mainMenu.cpp",
               "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
               "RelativeToolTip": "StudyGrowth\\src\\mainMenu.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-27T22:46:16.949Z",
               "EditorCaption": ""
@@ -65,8 +61,7 @@
               "RelativeToolTip": "StudyGrowth\\src\\main.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-27T22:46:01.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T22:46:01.494Z"
             },
             {
               "$type": "Document",
@@ -78,8 +73,7 @@
               "RelativeToolTip": "StudyGrowth\\include\\mainMenu.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-27T22:45:31.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T22:45:31.643Z"
             }
           ]
         }
