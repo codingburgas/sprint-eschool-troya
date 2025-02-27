@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 50,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\main.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\main.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-27T22:18:52.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mainMenu.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-27T22:17:42.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mainMenu.h",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-27T22:17:12.55Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
