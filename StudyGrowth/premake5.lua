@@ -1,14 +1,14 @@
-workspace "StudyGrowth"
+workspace "gitGut"
     architecture "x64"
     configurations { "Debug", "Release" }
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-project "StudyGrowth"
+project "gitGut"
     kind "ConsoleApp"
     language "C++"
     cppdialect "C++20"
-    location "StudyGrowth"
+    location "gitGut"
 
     targetdir ("./bin/".. outputdir.. "/%{prj.name}")
     objdir ("./bin-int/".. outputdir.. "/%{prj.name}") 
