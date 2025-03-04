@@ -3,8 +3,9 @@
     "",
     "\\StudyGrowth",
     "\\StudyGrowth\\StudyGrowth",
+    "\\StudyGrowth\\StudyGrowth\\include",
     "\\StudyGrowth\\StudyGrowth\\src"
   ],
-  "SelectedNode": "\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+  "SelectedNode": "\\StudyGrowth\\StudyGrowth.sln",
   "PreviewInSolutionExplorer": false
 }
