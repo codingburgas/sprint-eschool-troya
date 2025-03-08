@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,41 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\src\\mainMenu.cpp",
+              "ToolTip": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp*",
+              "RelativeToolTip": "StudyGrowth\\src\\mainMenu.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-08T11:00:53.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "mainMenu.h",
-              "DocumentMoniker": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\mainMenu.h",
-              "RelativeDocumentMoniker": "..\\gitGut\\gitGut\\mainMenu.h",
-              "ToolTip": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\mainMenu.h",
-              "RelativeToolTip": "..\\gitGut\\gitGut\\mainMenu.h",
+              "DocumentMoniker": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
+              "RelativeDocumentMoniker": "StudyGrowth\\include\\mainMenu.h",
+              "ToolTip": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
+              "RelativeToolTip": "StudyGrowth\\include\\mainMenu.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-04T19:07:47.465Z"
+              "WhenOpened": "2025-03-08T11:04:24.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\main.cpp",
-              "RelativeDocumentMoniker": "..\\gitGut\\gitGut\\main.cpp",
-              "ToolTip": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\main.cpp",
-              "RelativeToolTip": "..\\gitGut\\gitGut\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp",
+              "RelativeToolTip": "StudyGrowth\\src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-04T19:06:33.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mainMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\mainMenu.cpp",
-              "RelativeDocumentMoniker": "..\\gitGut\\gitGut\\mainMenu.cpp",
-              "ToolTip": "C:\\Users\\New\\Downloads\\sprint-eschool-troya\\gitGut\\gitGut\\mainMenu.cpp",
-              "RelativeToolTip": "..\\gitGut\\gitGut\\mainMenu.cpp",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-04T19:04:53.133Z"
+              "WhenOpened": "2025-03-04T20:00:41.641Z",
+              "EditorCaption": ""
             }
           ]
         }

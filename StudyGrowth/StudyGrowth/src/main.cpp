@@ -1,9 +1,7 @@
+#include "raylib.h"
+#include "..//include/mainMenu.h"
 #include <iostream>
-#include "../include/mainMenu.h"
 
-using namespace std;
-
-int main()
-{
+int main() {
 	mainMenu();
 }
