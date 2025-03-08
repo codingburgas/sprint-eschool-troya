@@ -3,10 +3,14 @@
   <ItemGroup>
     <ClCompile Include="src\mainMenu.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\login.cpp" />
+    <ClCompile Include="src\startandexitButtons.cpp" />
+    <ClCompile Include="src\registrationForm.cpp" />
+    <ClCompile Include="src\registerandloginButtons.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\mainMenu.h" />
-    <ClInclude Include="include\login.h" />
+    <ClInclude Include="include\startandexitButtons.h" />
+    <ClInclude Include="include\registrationForm.h" />
+    <ClInclude Include="include\registerandloginButtons.h" />
   </ItemGroup>
 </Project>
