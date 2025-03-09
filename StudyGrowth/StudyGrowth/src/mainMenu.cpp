@@ -5,11 +5,11 @@
 void mainMenu()
 {
     // Initialize the window
-    const int screenWidth = 800;
-    const int screenHeight = 600;
+    const int screenWidth = 1400;
+    const int screenHeight = 1000;
     InitWindow(screenWidth, screenHeight, "Main menu");
 
-    Image image = LoadImage("assets/tree.png");   
+    Image image = LoadImage("assets/Tree.png");   
     Texture2D texture = LoadTextureFromImage(image);          // Image converted to texture, GPU memory (VRAM)
     UnloadImage(image); 
 

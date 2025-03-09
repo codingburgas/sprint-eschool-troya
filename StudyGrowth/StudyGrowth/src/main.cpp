@@ -1,7 +1,7 @@
 #include "raylib.h"
-#include "..//include/startandexitButtons.h"
+#include "..//include/registerandloginButtons.h"
 #include <iostream>
 
 int main() {
-	loginPage();
+	registerPage();
 }

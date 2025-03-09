@@ -1,8 +1,2 @@
-﻿  registrationForm.cpp
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(148,144): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(148,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(239,144): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(239,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  StudyGrowth.vcxproj -> C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\bin\Debug-windows-x86_64\StudyGrowth\StudyGrowth.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  mainMenu.cpp
+  StudyGrowth.vcxproj -> C:\Users\New\Downloads\sprint-eschool-troya\StudyGrowth\bin\Debug-windows-x86_64\StudyGrowth\StudyGrowth.exe

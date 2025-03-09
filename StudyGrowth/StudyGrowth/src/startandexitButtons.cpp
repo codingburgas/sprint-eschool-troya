@@ -53,7 +53,7 @@ void loginPage()
         // Handle button clicks
         if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             if (startHover) {
-                registerPage();
+                mainMenu();
                 return;
             }
             if (exitHover) {
