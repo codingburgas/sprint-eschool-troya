@@ -3,9 +3,10 @@
     "",
     "\\StudyGrowth",
     "\\StudyGrowth\\StudyGrowth",
+    "\\StudyGrowth\\StudyGrowth\\assets",
     "\\StudyGrowth\\StudyGrowth\\include",
     "\\StudyGrowth\\StudyGrowth\\src"
   ],
-  "SelectedNode": "\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
+  "SelectedNode": "\\StudyGrowth\\StudyGrowth\\src\\registerandloginButtons.cpp",
   "PreviewInSolutionExplorer": false
 }

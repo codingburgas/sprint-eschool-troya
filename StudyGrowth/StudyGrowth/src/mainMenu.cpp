@@ -11,55 +11,55 @@ void mainMenu()
     const int screenHeight = 1000;
     InitWindow(screenWidth, screenHeight, "Main menu");
 
-    Image image = LoadImage("assets/Tree.png");
+    Image image = LoadImage("assets/tree.png");
     Texture2D texture = LoadTextureFromImage(image);          // Image converted to texture, GPU memory (VRAM)
     UnloadImage(image);
-    Vector2 circlePos = { 410, 261 };
+    Vector2 circlePos = { 456, 359 };
     float circleRadius = 50;
 
-    Vector2 circlePos2 = { 523, 335 };
+    Vector2 circlePos2 = { 550, 420 };
     float circleRadius2 = 50;
 
-    Vector2 circlePos3 = { 500, 255 };
+    Vector2 circlePos3 = { 532, 356 };
     float circleRadius3 = 50;
 
-    Vector2 circlePos4 = { 419, 158 };
+    Vector2 circlePos4 = { 456, 275 };
     float circleRadius4 = 50;
 
     Vector2 circlePos5 = { 505, 113 };
     float circleRadius5 = 50;
 
-    Vector2 circlePos6 = { 617, 239 };
+    Vector2 circlePos6 = { 535, 240 };
     float circleRadius6 = 50;
 
-    Vector2 circlePos7 = { 706, 276 };
+    Vector2 circlePos7 = { 626, 451 };
     float circleRadius7 = 50;
 
-    Vector2 circlePos8 = { 285, 122 };
+    Vector2 circlePos8 = { 700, 379 };
     float circleRadius8 = 50;
 
-    Vector2 circlePos9 = { 740, 177 };
+    Vector2 circlePos9 = { 728, 290 };
     float circleRadius9 = 50;
 
-    Vector2 circlePos10 = { 828, 198 };
+    Vector2 circlePos10 = { 683, 247 };
     float circleRadius10 = 50;
 
-    Vector2 circlePos11 = { 900, 142 };
+    Vector2 circlePos11 = { 798, 308 };
     float circleRadius11 = 50;
 
-    Vector2 circlePos12 = { 887, 252 };
+    Vector2 circlePos12 = { 846, 352 };
     float circleRadius12 = 50;
 
-    Vector2 circlePos13 = { 973, 188 };
+    Vector2 circlePos13 = { 857, 263 };
     float circleRadius13 = 50;
 
-    Vector2 circlePos14 = { 887, 252 };
+    Vector2 circlePos14 = { 917, 300 };
     float circleRadius14 = 50;
 
-    Vector2 circlePos15 = { 869, 355 };
+    Vector2 circlePos15 = { 831, 435 };
     float circleRadius15 = 50;
 
-    Vector2 circlePos16 = { 994, 317 };
+    Vector2 circlePos16 = { 933, 433 };
     float circleRadius16 = 50;
 
     SetTargetFPS(60);     // Set our game to run at 60 frames-per-second
