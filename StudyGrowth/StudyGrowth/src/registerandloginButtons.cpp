@@ -67,7 +67,6 @@ void registerPage()
         // Draw title
         DrawText(title, titlePos.x, titlePos.y, titleFontSize, WHITE);
 
-        // Draw buttons (slightly bigger if hovered)
         if (startHover) DrawTextureEx(registerButton, startPos, 0, scale * 1.1f, WHITE);
         else DrawTextureEx(registerButton, startPos, 0, scale, WHITE);
 

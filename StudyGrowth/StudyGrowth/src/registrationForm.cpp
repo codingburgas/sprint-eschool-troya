@@ -8,26 +8,26 @@
 using namespace std;
 
 // Create an instance of std::hash
-std::hash<std::string> hasher;
+hash<string> hasher;
 
 // Function to register a new user
-void registerUser(const std::string& username, const std::string& password) {
-    std::ofstream file("users.txt", std::ios::app);
+void registerUser(string username, string password) {
+    ofstream file("users.txt", ios::app);
     if (file.is_open()) {
         // Hash the password and store the username with hashed password
         file << username << " " << hasher(password) << "\n";
         file.close();
-        std::cout << "User registered successfully!\n";
+        cout << "User registered successfully!\n";
     }
     else {
-        std::cerr << "Error opening file!\n";
+        cerr << "Error opening file!\n";
     }
 }
 
 // Function to check login
-bool loginUser(const std::string& username, const std::string& password) {
-    std::ifstream file("users.txt");
-    std::string storedUser;
+bool loginUser(const string& username, const string& password) {
+    ifstream file("users.txt");
+    string storedUser;
     size_t storedHash;
 
     if (file.is_open()) {
@@ -40,7 +40,7 @@ bool loginUser(const std::string& username, const std::string& password) {
         file.close();
     }
     else {
-        std::cerr << "Error opening file!\n";
+        cerr << "Error opening file!\n";
     }
     return false;
 }
@@ -64,7 +64,6 @@ void handleTextInput(char* text, int& letterCount, bool isFocused, Rectangle inp
         }
     }
 }
-
 void registrationForm() {
     const int screenWidth = 800;
     const int screenHeight = 600;
