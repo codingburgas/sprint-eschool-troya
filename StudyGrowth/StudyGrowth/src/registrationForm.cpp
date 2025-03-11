@@ -4,6 +4,7 @@
 #include <functional>
 #include <string>
 #include "..//include/startandexitButtons.h"
+#define MAX_INPUT_CHARS 20
 
 using namespace std;
 

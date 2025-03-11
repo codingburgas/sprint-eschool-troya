@@ -1,12 +1,12 @@
 #include "raylib.h"
 #include "..//include/softwareEngineering.h"
+#include "..//include/registrationForm.h"
 #include <iostream>
 
 using namespace std;
 
 
 
-// Topic functions
 void programming() {
     const int screenWidth = 1400;
     const int screenHeight = 1000;
@@ -18,40 +18,52 @@ void programming() {
     Texture2D boardTexture = LoadTextureFromImage(boardImage);
     UnloadImage(boardImage);
 
+
     SetTargetFPS(60);
+
+    Rectangle rect = { 300, 250, 200, 100 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            loginForm();
+        }
 
-        // Draw background stretched to fill the screen
+        // Draw background
         DrawTexturePro(boardTexture,
             { 0, 0, (float)boardTexture.width, (float)boardTexture.height },
             { 0, 0, (float)screenWidth, (float)screenHeight },
             { 0, 0 }, 0, WHITE);
 
-        // Title inside the box (adjusted position)
-        int titleX = 100;  // Start position adjusted to be inside the box
-        int titleY = 110;  // Positioned further down to fit inside the box
-        DrawText("Programming languages", titleX, titleY, 50, DARKBLUE);
+        // Title
+        DrawText("Programming languages", 100, 110, 50, DARKGREEN);
 
-        // Lesson Content with smaller font size
-        int textStartX = 140; // Adjusted to be inside the board
-        int textStartY = 200; // Adjusted to fit inside the writing area
-        int lineSpacing = 40;
+        // Lesson Content
+        DrawText("1. What is Python?", 120, 180, 28, WHITE);
+        DrawText("Python is a high-level, interpreted programming language", 120, 220, 28, WHITE);
+        DrawText("It is widely used in web development, data science, automation, AI, and more.", 120, 260, 28, WHITE);
+        DrawText("2. Key Features of Python:", 120, 300, 28, WHITE);
+        DrawText("Easy to learn & read : Python has a simple and clean syntax;", 120, 340, 28, WHITE);
+        DrawText("3. Basic Concepts:", 120, 380, 28, WHITE);
+        DrawText("-Variables; Data types; Operators; Conditional Statements(if, elif, else); Loops; Functions; ", 120, 420, 28, WHITE);
+        DrawText("1. What is Java?", 120, 460, 28, WHITE);
+        DrawText("Java is a high-level, object-oriented programming language", 120, 500, 28, WHITE);
+        DrawText("2. Key Features of Java:", 120, 540, 28, WHITE);
+        DrawText("Platform-independent; Object-oriented; Strongly typed; Multi-threaded; Robust and secure;", 120, 580, 28, WHITE);
+        DrawText("3. Basic Concepts:", 120, 620, 28, WHITE);
+        DrawText("-Variables; Data types; Operators; Conditional Statements; Loops; Methods;Classes and Objects;", 120, 660, 28, WHITE);
+        DrawText("1. What is C++?", 120, 700, 28, WHITE);
+        DrawText("C++ is a high-performance, general-purpose programming language", 120, 740, 28, WHITE);
+        DrawText("It is widely used in game development, system programming, embedded systems", 120, 780, 28, WHITE);
+        DrawText("2. Key Features of C++:", 120, 820, 28, WHITE);
+        DrawText("-Compiled and Fast; Object-Oriented; Multi-Paradigm; Memory Management;", 120, 860, 28, WHITE);
 
-        // Updated content
-        DrawText("Python-Simple and easy to read; Great for beginners and rapid development;", textStartX, textStartY, 28, BLACK);
-        DrawText(" Used for web development, data analysis, automation, AI;", textStartX, textStartY + lineSpacing, 30, BLACK);
 
-        DrawText("Java-Object-oriented and platform-independent;", textStartX, textStartY + 2 * lineSpacing, 30, BLACK);
-        DrawText("Commonly used for Android apps, large-scale systems.", textStartX, textStartY + 3 * lineSpacing, 30, BLACK);
-        DrawText("Compiled into bytecode, runs on the JVM (Java Virtual Machine).", textStartX, textStartY + 4 * lineSpacing, 30, BLACK);
-        DrawText("C++ - Powerful and fast.", textStartX, textStartY + 5 * lineSpacing, 30, BLACK);
-        DrawText("Used in game development, system software, ", textStartX, textStartY + 6 * lineSpacing, 30, BLACK);
 
-        DrawText("and applications needing high performance.", textStartX, textStartY + 7 * lineSpacing, 30, BLACK);
-        DrawText("Allows direct memory manipulation.", textStartX, textStartY + 8 * lineSpacing, 30, BLACK);
+        DrawRectangleLines((int)rect.x, (int)rect.y, (int)rect.width, (int)rect.height, BLACK);
+        
 
         EndDrawing();
     }
@@ -59,6 +71,7 @@ void programming() {
     UnloadTexture(boardTexture);
     CloseWindow();
 }
+
 void databases() {
     const int screenWidth = 1400;
     const int screenHeight = 1000;
