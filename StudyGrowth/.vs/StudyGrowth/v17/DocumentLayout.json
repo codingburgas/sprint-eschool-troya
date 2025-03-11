@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\startButton.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
-      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\assets\\startButton.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registrationForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\registrationForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registerandloginButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\registerandloginButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\softwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\startandexitButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\tree.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\assets\\tree.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\startandexitButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\board.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\assets\\board.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\startandexitButtons.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,18 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\registrationForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\include\\registrationForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registerandloginButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\registerandloginButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registrationForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F943CFFF-E5E5-F9D5-CEA0-0D2ABAE18026}|StudyGrowth\\StudyGrowth.vcxproj|solutionrelative:StudyGrowth\\src\\registrationForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -58,17 +62,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "mainMenu.cpp",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
               "RelativeDocumentMoniker": "StudyGrowth\\src\\mainMenu.cpp",
               "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\mainMenu.cpp",
               "RelativeToolTip": "StudyGrowth\\src\\mainMenu.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAnAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAArwDwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-08T11:00:53.535Z",
               "IsPinned": true,
@@ -76,14 +80,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "startButton.png",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\startButton.png",
-              "RelativeDocumentMoniker": "StudyGrowth\\assets\\startButton.png",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\startButton.png",
-              "RelativeToolTip": "StudyGrowth\\assets\\startButton.png",
+              "DocumentIndex": 5,
+              "Title": "tree.png",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\tree.png",
+              "RelativeDocumentMoniker": "StudyGrowth\\assets\\tree.png",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\tree.png",
+              "RelativeToolTip": "StudyGrowth\\assets\\tree.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-03-09T20:33:52.291Z",
+              "WhenOpened": "2025-03-11T04:02:01.437Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "softwareEngineering.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\src\\softwareEngineering.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
+              "RelativeToolTip": "StudyGrowth\\src\\softwareEngineering.cpp",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAkwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-10T18:04:00.087Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -93,42 +112,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "tree.png",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\tree.png",
-              "RelativeDocumentMoniker": "StudyGrowth\\assets\\tree.png",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\tree.png",
-              "RelativeToolTip": "StudyGrowth\\assets\\tree.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-03-09T15:04:17.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "registerandloginButtons.cpp",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registerandloginButtons.cpp",
               "RelativeDocumentMoniker": "StudyGrowth\\src\\registerandloginButtons.cpp",
               "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registerandloginButtons.cpp",
               "RelativeToolTip": "StudyGrowth\\src\\registerandloginButtons.cpp",
-              "ViewState": "AQIAABoAAAAAAAAAAAAcwCsAAAAiAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-09T12:37:53.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "registrationForm.cpp",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registrationForm.cpp",
               "RelativeDocumentMoniker": "StudyGrowth\\src\\registrationForm.cpp",
               "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\registrationForm.cpp",
               "RelativeToolTip": "StudyGrowth\\src\\registrationForm.cpp",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-09T12:37:59.423Z"
+              "WhenOpened": "2025-03-09T12:37:59.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "startandexitButtons.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\src\\startandexitButtons.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
+              "RelativeToolTip": "StudyGrowth\\src\\startandexitButtons.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAewEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-09T12:39:24.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "board.png",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\board.png",
+              "RelativeDocumentMoniker": "StudyGrowth\\assets\\board.png",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\assets\\board.png",
+              "RelativeToolTip": "StudyGrowth\\assets\\board.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-03-11T03:54:25.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "registrationForm.h",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\registrationForm.h",
               "RelativeDocumentMoniker": "StudyGrowth\\include\\registrationForm.h",
@@ -136,12 +170,11 @@
               "RelativeToolTip": "StudyGrowth\\include\\registrationForm.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-09T12:57:37.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T12:57:37.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "startandexitButtons.h",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\startandexitButtons.h",
               "RelativeDocumentMoniker": "StudyGrowth\\include\\startandexitButtons.h",
@@ -149,25 +182,11 @@
               "RelativeToolTip": "StudyGrowth\\include\\startandexitButtons.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-09T12:57:34.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T12:57:34.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "startandexitButtons.cpp",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
-              "RelativeDocumentMoniker": "StudyGrowth\\src\\startandexitButtons.cpp",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
-              "RelativeToolTip": "StudyGrowth\\src\\startandexitButtons.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-09T12:39:24.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "mainMenu.h",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\mainMenu.h",
               "RelativeDocumentMoniker": "StudyGrowth\\include\\mainMenu.h",
@@ -179,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "users.txt",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\users.txt",
               "RelativeDocumentMoniker": "StudyGrowth\\users.txt",
@@ -191,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\main.cpp",
               "RelativeDocumentMoniker": "StudyGrowth\\src\\main.cpp",
@@ -203,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "registerandloginButtons.h",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\registerandloginButtons.h",
               "RelativeDocumentMoniker": "StudyGrowth\\include\\registerandloginButtons.h",

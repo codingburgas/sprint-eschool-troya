@@ -24,21 +24,21 @@ void mainMenu() {
     UnloadImage(image);
 
     vector<Circle> circles = {
-        {{506, 116}, 50, programming},
-        {{419, 155}, 50, softwareDevelopment},
-        {{409, 259}, 50, databases},
-        {{498, 261}, 50, webDevelopment},
-        {{527, 336}, 50, algorithms},
-        {{687, 119}, 50, programming},
-        {{742, 179}, 50, programming},
-        {{617, 242}, 50, programming},
-        {{711, 278}, 50, programming},
-        {{904, 138}, 50, programming},
-        {{829, 199}, 50, programming},
-        {{895, 259}, 50, programming},
-        {{974, 197}, 50, programming},
-        {{991, 317}, 50, programming},
-        {{868, 358}, 50, programming}
+        {{533, 424}, 50, programming},
+        {{464, 273}, 50, softwareDevelopment},
+        {{455, 362}, 50, databases},
+        {{550, 417}, 50, webDevelopment},
+        {{520, 356}, 50, algorithms},
+        {{681, 245}, 50, programming},
+        {{728, 293}, 50, programming},
+        {{427, 339}, 50, programming},
+        {{700, 371}, 50, programming},
+        {{798, 308}, 50, programming},
+        {{856, 263}, 50, programming},
+        {{847, 352}, 50, programming},
+        {{831, 434}, 50, programming},
+        {{934, 404}, 50, programming},
+        {{916, 300}, 50, programming}
     };
 
     SetTargetFPS(60);

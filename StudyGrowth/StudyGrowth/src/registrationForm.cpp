@@ -4,7 +4,6 @@
 #include <functional>
 #include <string>
 #include "..//include/startandexitButtons.h"
-#define MAX_INPUT_CHARS     20  // Limit input size
 
 using namespace std;
 
@@ -150,10 +149,6 @@ void loginForm() {
         if (isLoggedIn) {
             loginPage();
         }
-        else {
-            DrawText("Invalid credentials!", 230, 420, 20, RED);
-        }
-
         EndDrawing();
     }
 
