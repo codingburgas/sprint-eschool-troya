@@ -1,4 +1,4 @@
-#include "raylib.h"
+﻿#include "raylib.h"
 #include "..//include/softwareEngineering.h"
 #include "..//include/registrationForm.h"
 #include <iostream>
@@ -21,7 +21,7 @@ void programming() {
 
     SetTargetFPS(60);
 
-    Rectangle rect = { 300, 250, 200, 100 };
+    Rectangle rect = { 1035, 800, 220, 80 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
@@ -40,7 +40,7 @@ void programming() {
         // Title
         DrawText("Programming languages", 100, 110, 50, DARKGREEN);
 
-        // Lesson Content
+        //Lesson
         DrawText("1. What is Python?", 120, 180, 28, WHITE);
         DrawText("Python is a high-level, interpreted programming language", 120, 220, 28, WHITE);
         DrawText("It is widely used in web development, data science, automation, AI, and more.", 120, 260, 28, WHITE);
@@ -62,7 +62,6 @@ void programming() {
 
 
 
-        DrawRectangleLines((int)rect.x, (int)rect.y, (int)rect.width, (int)rect.height, BLACK);
         
 
         EndDrawing();
@@ -85,9 +84,16 @@ void databases() {
 
     SetTargetFPS(60);
 
+    Rectangle rect = { 1035, 800, 220, 80 };
+
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            loginForm();
+        }
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
@@ -95,30 +101,29 @@ void databases() {
             { 0, 0, (float)screenWidth, (float)screenHeight },
             { 0, 0 }, 0, WHITE);
 
-        // Title inside the box (adjusted position)
-        int titleX = 110;  // Start position adjusted to be inside the box
-        int titleY = 100;  // Positioned further down to fit inside the box
-        DrawText("Data bases", titleX, titleY, 50, DARKBLUE);
+        //Title
+        DrawText("Date bases", 100, 110, 50, DARKGREEN);
 
-        // Lesson Content with smaller font size
-        int textStartX = 140; // Adjusted to be inside the board
-        int textStartY = 200; // Adjusted to fit inside the writing area
-        int lineSpacing = 30;  // Smaller line spacing for more text
+        //Lesson
+        DrawText("1. What is a Database?", 120, 180, 28, WHITE);
+        DrawText("A database is an organized collection of data, typically stored electronically.", 120, 220, 28, WHITE);
+        DrawText("It enables efficient data storage, retrieval, and management.", 120, 260, 28, WHITE);
+        DrawText("2. Key Features of Databases:", 120, 300, 28, WHITE);
+        DrawText("Structured data storage; Efficient querying; Data integrity & security;", 120, 340, 28, WHITE);
+        DrawText("Scalability; Multi-user access; Backup & Recovery;", 120, 380, 28, WHITE);
+        DrawText("3. Types of Databases:", 120, 420, 28, WHITE);
+        DrawText("-Relational Databases (SQL, MySQL, PostgreSQL, Oracle);", 120, 460, 28, WHITE);
+        DrawText("-NoSQL Databases (MongoDB, Redis, Cassandra);", 120, 500, 28, WHITE);
+        DrawText("-Cloud Databases (Google Firebase, AWS DynamoDB);", 120, 540, 28, WHITE);
+        DrawText("1. What is SQL?", 120, 580, 28, WHITE);
+        DrawText("SQL (Structured Query Language) is used to manage and manipulate databases.", 120, 620, 28, WHITE);
+        DrawText("2. Key Features of SQL:", 120, 660, 28, WHITE);
+        DrawText("-Data Querying (SELECT, WHERE, JOIN); Data Manipulation (INSERT, UPDATE, DELETE);", 120, 700, 28, WHITE);
+        DrawText("-Data Definition (CREATE, ALTER, DROP); Transactions & ACID Compliance;", 120, 740, 28, WHITE);
+        DrawText("3. Basic Concepts:", 120, 780, 28, WHITE);
+        DrawText("-Tables; Rows & Columns; Primary & Foreign Keys; Indexes; Normalization;", 120, 820, 28, WHITE);
+        DrawText("-Stored Procedures; Views; Triggers; Constraints;", 120, 860, 28, WHITE);
 
-        // Updated content with your provided text
-        DrawText("A database is a system for storing, organizing, and managing data.", textStartX, textStartY, 30, WHITE);
-        DrawText("It allows users to store, retrieve, and manipulate data efficiently.", textStartX, textStartY + lineSpacing, 30, WHITE);
-
-        DrawText("Key Concepts : Tables; Records; Fields; Primary Key; Foreign Key", textStartX, textStartY + 2 * lineSpacing, 30, WHITE);
-        DrawText("Types of Databases:", textStartX, textStartY + 3 * lineSpacing, 30, WHITE);
-        DrawText("Relational Databases (SQL): Use structured query language", textStartX, textStartY + 4 * lineSpacing, 30, WHITE);
-        DrawText("(e.g., MySQL, PostgreSQL) to manage data in tables.", textStartX, textStartY + 5 * lineSpacing, 30, WHITE);
-
-        DrawText("NoSQL Databases: Non-relational databases (e.g., MongoDB) ", textStartX, textStartY + 6 * lineSpacing, 30, WHITE);
-        DrawText("that store data in flexible formats like documents or key-value pairs.", textStartX, textStartY + 7 * lineSpacing, 30, WHITE);
-
-        DrawText("Basic Operations:", textStartX, textStartY + 8 * lineSpacing, 30, WHITE);
-        DrawText("CRUD and Querying", textStartX, textStartY + 9 * lineSpacing, 30, WHITE);
 
         EndDrawing();
     }
@@ -139,40 +144,47 @@ void webDevelopment() {
 
     SetTargetFPS(60);
 
+    Rectangle rect = { 1035, 800, 220, 80 };
+
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            loginForm();
+        }
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
             { 0, 0, (float)boardTexture.width, (float)boardTexture.height },
             { 0, 0, (float)screenWidth, (float)screenHeight },
             { 0, 0 }, 0, WHITE);
+        //Title
+        DrawText("Web development", 100, 110, 50, DARKGREEN);
 
-        // Title inside the box (adjusted position)
-        int titleX = 110;  // Start position adjusted to be inside the box
-        int titleY = 100;  // Positioned further down to fit inside the box
-        DrawText("Web development", titleX, titleY, 50, DARKBLUE);
+        //Lesson
+        DrawText("1. What is Web Development?", 120, 180, 28, WHITE);
+        DrawText("Web development is the process of building and maintaining websites and web applications.", 120, 220, 28, WHITE);
+        DrawText("It involves frontend, backend, and full-stack development.", 120, 260, 28, WHITE);
+        DrawText("2. Key Features of Web Development:", 120, 300, 28, WHITE);
+        DrawText("-User Interface (UI) and User Experience (UX); Responsive Design;", 120, 340, 28, WHITE);
+        DrawText("-Client-Server Architecture; API Integration; Security;", 120, 380, 28, WHITE);
+        DrawText("3. Frontend Development:", 120, 420, 28, WHITE);
+        DrawText("-HTML (Structure of a webpage);", 120, 460, 28, WHITE);
+        DrawText("-CSS (Styling and layout);", 120, 500, 28, WHITE);
+        DrawText("-JavaScript (Interactivity and dynamic content);", 120, 540, 28, WHITE);
+        DrawText("1. Backend Development:", 120, 580, 28, WHITE);
+        DrawText("-Handles server-side logic, databases, and authentication;", 120, 620, 28, WHITE);
+        DrawText("2. Key Backend Technologies:", 120, 660, 28, WHITE);
+        DrawText("-Node.js, Express.js, Django, Flask, Ruby on Rails, PHP;", 120, 700, 28, WHITE);
+        DrawText("-Databases: MySQL, PostgreSQL, MongoDB, Firebase;", 120, 740, 28, WHITE);
+        DrawText("3. Full-Stack Development:", 120, 780, 28, WHITE);
+        DrawText("-Combines both frontend and backend development;", 120, 820, 28, WHITE);
+        DrawText("-Uses frameworks like MERN (MongoDB, Express, React, Node) or LAMP (Linux, Apache, MySQL, PHP);", 120, 860, 28, WHITE);
 
-        // Lesson Content with smaller font size
-        int textStartX = 140; // Adjusted to be inside the board
-        int textStartY = 200; // Adjusted to fit inside the writing area
-        int lineSpacing = 30;  // Smaller line spacing for more text
 
-        // Updated content with your provided text
-        DrawText("Web development is the process of building websites and web applications. ", textStartX, textStartY, 30, WHITE);
-        DrawText("It involves designing, coding, and deploying websites for users to interact with through browsers.", textStartX, textStartY + lineSpacing, 30, WHITE);
-
-        DrawText("Key Components: ", textStartX, textStartY + 2 * lineSpacing, 30, WHITE);
-        DrawText("Frontend (Client-Side): What users see and interact with. It includes HTML, CSS, and JavaScript.", textStartX, textStartY + 3 * lineSpacing, 20, WHITE);
-        DrawText("Backend (Server-Side): The behind-the-scenes part that processes data and serves the frontend.", textStartX, textStartY + 4 * lineSpacing, 20, WHITE);
-        DrawText("Web Hosting: Deploying the website on a server to make it accessible online.", textStartX, textStartY + 5 * lineSpacing, 20, WHITE);
-
-        DrawText("Basic Web Development Process: Design", textStartX, textStartY + 6 * lineSpacing, 20, WHITE);
-        DrawText("Development", textStartX, textStartY + 7 * lineSpacing, 20, WHITE);
-
-        DrawText("Testing", textStartX, textStartY + 8 * lineSpacing, 20, WHITE);
-        DrawText("Deployment", textStartX, textStartY + 9 * lineSpacing, 20, WHITE);
+       
 
         EndDrawing();
     }
@@ -192,10 +204,16 @@ void softwareDevelopment() {
     UnloadImage(boardImage);
 
     SetTargetFPS(60);
+    Rectangle rect = { 1035, 800, 220, 80 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            loginForm();
+        }
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
@@ -203,29 +221,30 @@ void softwareDevelopment() {
             { 0, 0, (float)screenWidth, (float)screenHeight },
             { 0, 0 }, 0, WHITE);
 
-        // Title inside the box (adjusted position)
-        int titleX = 110;  // Start position adjusted to be inside the box
-        int titleY = 100;  // Positioned further down to fit inside the box
-        DrawText("Software development", titleX, titleY, 50, DARKBLUE);
+        //Title
+        DrawText("Software development", 100, 110, 50, DARKGREEN);
 
-        // Lesson Content with smaller font size
-        int textStartX = 140; // Adjusted to be inside the board
-        int textStartY = 200; // Adjusted to fit inside the writing area
-        int lineSpacing = 40;  // Smaller line spacing for more text
-
-        // Updated content with your provided text
-        DrawText("Software development is the process of creating, testing, and maintaining software.", textStartX, textStartY, 30, WHITE);
-        DrawText("Key Stages: Planning: Define requirements and plan the project.; Design: Create system blueprints.;", textStartX, textStartY + lineSpacing, 30, WHITE);
-
-        DrawText("Coding: Write the code.; Testing: Find and fix bugs.; Deployment: Release the software.;", textStartX, textStartY + 2 * lineSpacing, 20, WHITE);
-        DrawText("Maintenance: Update and fix issues.", textStartX, textStartY + 3 * lineSpacing, 20, WHITE);
-        DrawText("Methodologies: Waterfall: Sequential approach; Agile: Flexible, iterative development.;", textStartX, textStartY + 4 * lineSpacing, 20, WHITE);
-        DrawText("DevOps: Combines development and operations for efficiency.", textStartX, textStartY + 5 * lineSpacing, 20, WHITE);
-        DrawText("Tools:", textStartX, textStartY + 6 * lineSpacing, 20, WHITE);
-
-        DrawText("IDEs: Visual Studio, Eclipse, PyCharm.", textStartX, textStartY + 7 * lineSpacing, 20, WHITE);
-        DrawText("Version Control: Git for tracking changes.", textStartX, textStartY + 8 * lineSpacing, 20, WHITE);
-        DrawText("Software development turns ideas into functional applications using structured processes and tools.", textStartX, textStartY + 9 * lineSpacing, 20, WHITE);
+        //Lesson
+        DrawText("1. What is Software Development?", 120, 180, 28, WHITE);
+        DrawText("Software development is the process of designing, coding, testing, and maintaining applications.", 120, 220, 28, WHITE);
+        DrawText("It includes various methodologies, tools, and programming languages.", 120, 260, 28, WHITE);
+        DrawText("2. Key Features of Software Development:", 120, 300, 28, WHITE);
+        DrawText("-Requirement Analysis; System Design; Coding; Testing; Deployment; Maintenance;", 120, 340, 28, WHITE);
+        DrawText("3. Types of Software Development:", 120, 380, 28, WHITE);
+        DrawText("-Desktop Applications (Windows, macOS, Linux);", 120, 420, 28, WHITE);
+        DrawText("-Web Applications (Frontend, Backend, Full-Stack);", 120, 460, 28, WHITE);
+        DrawText("-Mobile Applications (Android, iOS, Cross-Platform);", 120, 500, 28, WHITE);
+        DrawText("-Embedded Systems (IoT, Robotics, Hardware Integration);", 120, 540, 28, WHITE);
+        DrawText("1. Software Development Lifecycle (SDLC):", 120, 580, 28, WHITE);
+        DrawText("-Planning → Design → Implementation → Testing → Deployment → Maintenance;", 120, 620, 28, WHITE);
+        DrawText("2. Key Software Development Methodologies:", 120, 660, 28, WHITE);
+        DrawText("-Waterfall Model; Agile Development (Scrum, Kanban); DevOps;", 120, 700, 28, WHITE);
+        DrawText("3. Commonly Used Programming Languages:", 120, 740, 28, WHITE);
+        DrawText("-C++, Java, Python, JavaScript, Swift, Kotlin, C#;", 120, 780, 28, WHITE);
+        DrawText("-Each language has specific use cases based on the project type;", 120, 820, 28, WHITE);
+        DrawText("4. Software Development Tools:", 120, 860, 28, WHITE);
+        DrawText("-IDEs (Visual Studio, IntelliJ, PyCharm, Eclipse);", 120, 900, 28, WHITE);
+        DrawText("-Version Control (Git, GitHub, GitLab, Bitbucket);", 120, 940, 28, WHITE);
 
 
         EndDrawing();
@@ -248,9 +267,16 @@ void algorithms() {
 
     SetTargetFPS(60);
 
+    Rectangle rect = { 1035, 800, 220, 80 };
+
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            loginForm();
+        }
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
@@ -258,31 +284,31 @@ void algorithms() {
             { 0, 0, (float)screenWidth, (float)screenHeight },
             { 0, 0 }, 0, WHITE);
 
-        // Title inside the box (adjusted position)
-        int titleX = 110;  // Start position adjusted to be inside the box
-        int titleY = 100;  // Positioned further down to fit inside the box
-        DrawText("Algorithms and Data Structures", titleX, titleY, 50, DARKBLUE);
+       //Title
+        DrawText("Algorithms", 100, 110, 50, DARKGREEN);
 
-        // Lesson Content with smaller font size
-        int textStartX = 140; // Adjusted to be inside the board
-        int textStartY = 200; // Adjusted to fit inside the writing area
-        int lineSpacing = 30;  // Smaller line spacing for more text
+        //Lesson
+        DrawText("1. What are Algorithms?", 120, 180, 28, WHITE);
+        DrawText("An algorithm is a step-by-step procedure to solve a problem.", 120, 220, 28, WHITE);
+        DrawText("It consists of a finite number of well-defined instructions.", 120, 260, 28, WHITE);
+        DrawText("2. Key Features of Algorithms:", 120, 300, 28, WHITE);
+        DrawText("-Correctness; Efficiency; Finiteness; Definiteness; Input & Output;", 120, 340, 28, WHITE);
+        DrawText("3. Types of Algorithms:", 120, 380, 28, WHITE);
+        DrawText("-Sorting Algorithms (Bubble Sort, Quick Sort, Merge Sort);", 120, 420, 28, WHITE);
+        DrawText("-Searching Algorithms (Linear Search, Binary Search);", 120, 460, 28, WHITE);
+        DrawText("-Graph Algorithms (Dijkstra, BFS, DFS);", 120, 500, 28, WHITE);
+        DrawText("-Dynamic Programming (Fibonacci, Knapsack Problem);", 120, 540, 28, WHITE);
+        DrawText("-Divide and Conquer (Merge Sort, Quick Sort, Binary Search);", 120, 580, 28, WHITE);
+        DrawText("4. Algorithm Complexity (Big-O Notation):", 120, 620, 28, WHITE);
+        DrawText("-Measures efficiency of an algorithm in terms of time and space;", 120, 660, 28, WHITE);
+        DrawText("-Common complexities: O(1), O(log n), O(n), O(n log n), O(n^2);", 120, 700, 28, WHITE);
+        DrawText("5. Algorithm Design Techniques:", 120, 740, 28, WHITE);
+        DrawText("-Brute Force; Divide and Conquer; Greedy Algorithms;", 120, 780, 28, WHITE);
+        DrawText("-Dynamic Programming; Backtracking;", 120, 820, 28, WHITE);
+        DrawText("6. Importance of Algorithms:", 120, 860, 28, WHITE);
+        DrawText("-Improve efficiency and performance in programming;", 120, 900, 28, WHITE);
+        DrawText("-Essential for competitive programming & technical interviews;", 120, 940, 28, WHITE);
 
-        // Updated content with your provided text
-        DrawText("An algorithm is a step-by-step process for solving a problem.", textStartX, textStartY, 20, WHITE);
-        DrawText("It takes input, performs operations, and gives an output.", textStartX, textStartY + lineSpacing, 20, WHITE);
-
-        DrawText("Example: Find the Maximum Number in a List:", textStartX, textStartY + 2 * lineSpacing, 20, WHITE);
-        DrawText("Start with the first number as the max.", textStartX, textStartY + 3 * lineSpacing, 20, WHITE);
-        DrawText("Compare each number in the list.", textStartX, textStartY + 4 * lineSpacing, 20, WHITE);
-        DrawText("If a number is larger, update the max.", textStartX, textStartY + 5 * lineSpacing, 20, WHITE);
-        DrawText("Return the max.", textStartX, textStartY + 6 * lineSpacing, 20, WHITE);
-
-        DrawText("Time Complexity:", textStartX, textStartY + 7 * lineSpacing, 20, WHITE);
-        DrawText("O(1): Constant time.", textStartX, textStartY + 8 * lineSpacing, 20, WHITE);
-        DrawText("O(n): Linear time, based on list size.", textStartX, textStartY + 9 * lineSpacing, 20, WHITE);
-
-        DrawText("Algorithms help solve problems efficiently and are essential in programming.", textStartX, textStartY + 10 * lineSpacing, 20, WHITE);
 
         EndDrawing();
     }
