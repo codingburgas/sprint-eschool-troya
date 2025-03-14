@@ -1,8 +1,8 @@
-﻿  robotics.cpp
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(68,18): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1251)
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(136,18): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1251)
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(200,18): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1251)
-C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(267,18): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1251)
+﻿  registrationForm.cpp
+C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(149,144): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(149,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(232,144): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(232,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   StudyGrowth.vcxproj -> C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\bin\Debug-windows-x86_64\StudyGrowth\StudyGrowth.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

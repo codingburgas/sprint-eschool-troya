@@ -1,4 +1,4 @@
-#include "raylib.h"
+﻿#include "raylib.h"
 #include <iostream>
 #include <fstream>
 #include <functional>
@@ -8,15 +8,17 @@
 
 using namespace std;
 
-// Create an instance of std::hash
-hash<string> hasher;
+string hashPassword(const string& password) {
+    hash<string> hasher;
+    size_t hashedValue = hasher(password); // Get hashed numeric value
+    return to_string(hashedValue); // Convert to string for storage
+}
 
-// Function to register a new user
+// Register function
 void registerUser(string username, string password) {
     ofstream file("users.txt", ios::app);
     if (file.is_open()) {
-        // Hash the password and store the username with hashed password
-        file << username << " " << hasher(password) << "\n";
+        file << username << " " << hashPassword(password) << "\n"; // Store hashed password
         file.close();
         cout << "User registered successfully!\n";
     }
@@ -25,17 +27,16 @@ void registerUser(string username, string password) {
     }
 }
 
-// Function to check login
-bool loginUser(const string& username, const string& password) {
+// Login function
+bool loginUser(string username, string password) {
     ifstream file("users.txt");
-    string storedUser;
-    size_t storedHash;
+    string storedUser, storedHash;
 
     if (file.is_open()) {
         while (file >> storedUser >> storedHash) {
-            if (storedUser == username && storedHash == hasher(password)) {
+            if (storedUser == username && storedHash == hashPassword(password)) {
                 file.close();
-                return true;  // Login successful
+                return true; // Login successful
             }
         }
         file.close();
@@ -43,6 +44,7 @@ bool loginUser(const string& username, const string& password) {
     else {
         cerr << "Error opening file!\n";
     }
+
     return false;
 }
 
