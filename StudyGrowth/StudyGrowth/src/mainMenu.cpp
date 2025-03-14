@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include "..//include/mainMenu.h"
 #include "..//include/softwareEngineering.h"
+#include "..//include/robotics.h"
 #include <vector>
 #include <functional>
 #include "raymath.h"
@@ -29,10 +30,10 @@ void mainMenu() {
         {{455, 362}, 50, databases},
         {{550, 417}, 50, webDevelopment},
         {{520, 356}, 50, algorithms},
-        {{681, 245}, 50, programming},
-        {{728, 293}, 50, programming},
-        {{427, 339}, 50, programming},
-        {{700, 371}, 50, programming},
+        {{681, 245}, 50, robotProgramming},
+        {{728, 293}, 50, machineLearning},
+        {{427, 339}, 50, iot},
+        {{700, 371}, 50, sensorsAutomation},
         {{798, 308}, 50, programming},
         {{856, 263}, 50, programming},
         {{847, 352}, 50, programming},

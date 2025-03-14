@@ -97,6 +97,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\registerandloginButtons.cpp" />
+    <ClCompile Include="src\robotics.cpp" />
     <ClCompile Include="src\softwareEngineering.cpp" />
     <ClCompile Include="src\startandexitButtons.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -105,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\registerandloginButtons.h" />
+    <ClInclude Include="include\robotics.h" />
     <ClInclude Include="include\softwareEngineering.h" />
     <ClInclude Include="include\startandexitButtons.h" />
     <ClInclude Include="include\mainMenu.h" />
