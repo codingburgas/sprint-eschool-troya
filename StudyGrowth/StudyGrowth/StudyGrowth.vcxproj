@@ -97,6 +97,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\computerNetworks.cpp" />
+    <ClCompile Include="src\hwComputerNetworks.cpp" />
     <ClCompile Include="src\hwQuestions.cpp" />
     <ClCompile Include="src\hwRobotics.cpp" />
     <ClCompile Include="src\hwSoftwareEngineering.cpp" />
@@ -112,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\computerNetworks.h" />
+    <ClInclude Include="include\hwComputerNetworks.h" />
     <ClInclude Include="include\hwQuestions.h" />
     <ClInclude Include="include\hwRobotics.h" />
     <ClInclude Include="include\hwSoftwareEngineering.h" />

@@ -15,3 +15,6 @@ extern vector<pair<string, string>> roboticsQuestions;
 extern vector<pair<string, string>> machineLearningQuestions;
 extern vector<pair<string, string>> iotQuestions;
 extern vector<pair<string, string>> automationQuestions;
+extern vector<pair<string, string>> networkingQuestions;
+extern vector<pair<string, string>> operatingSystemsQuestions;
+extern vector<pair<string, string>> cloudComputingQuestions;

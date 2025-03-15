@@ -14,6 +14,7 @@
     <ClCompile Include="src\hwQuestions.cpp" />
     <ClCompile Include="src\hwRobotics.cpp" />
     <ClCompile Include="src\searchBar.cpp" />
+    <ClCompile Include="src\hwComputerNetworks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\mainMenu.h" />
@@ -28,5 +29,6 @@
     <ClInclude Include="include\hwSoftwareEngineering.h" />
     <ClInclude Include="include\hwRobotics.h" />
     <ClInclude Include="include\searchBar.h" />
+    <ClInclude Include="include\hwComputerNetworks.h" />
   </ItemGroup>
 </Project>

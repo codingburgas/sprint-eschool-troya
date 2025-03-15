@@ -1,4 +1,42 @@
-﻿  searchBar.cpp
-  StudyGrowth.vcxproj -> C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\bin\Debug-windows-x86_64\StudyGrowth\StudyGrowth.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+﻿  computerNetworks.cpp
+  hwComputerNetworks.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwComputerNetworks.cpp(18,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwComputerNetworks.cpp(83,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwComputerNetworks.cpp(149,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  hwQuestions.cpp
+  hwRobotics.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwRobotics.cpp(18,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwRobotics.cpp(83,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwRobotics.cpp(149,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwRobotics.cpp(215,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  hwSoftwareEngineering.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwSoftwareEngineering.cpp(18,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwSoftwareEngineering.cpp(83,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwSoftwareEngineering.cpp(149,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwSoftwareEngineering.cpp(215,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\hwSoftwareEngineering.cpp(281,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  registerandloginButtons.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registerandloginButtons.cpp(68,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registerandloginButtons.cpp(68,33): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  robotics.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(69,18): warning C4566: символ, представленный универсальным именем символа "\u2192", невозможно представить в текущей кодовой странице (1251)
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(137,18): warning C4566: символ, представленный универсальным именем символа "\u2192", невозможно представить в текущей кодовой странице (1251)
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(201,18): warning C4566: символ, представленный универсальным именем символа "\u2192", невозможно представить в текущей кодовой странице (1251)
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\robotics.cpp(268,18): warning C4566: символ, представленный универсальным именем символа "\u2192", невозможно представить в текущей кодовой странице (1251)
+  searchBar.cpp
+  softwareEngineering.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\softwareEngineering.cpp(240,18): warning C4566: символ, представленный универсальным именем символа "\u2192", невозможно представить в текущей кодовой странице (1251)
+  startandexitButtons.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\startandexitButtons.cpp(69,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\startandexitButtons.cpp(69,33): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  main.cpp
+  mainMenu.cpp
+  registrationForm.cpp
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(149,144): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(149,69): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(232,144): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\registrationForm.cpp(232,69): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  webDesign.cpp
+  Создание кода...
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  StudyGrowth.vcxproj -> D:\School work and shit\Troya_stuff again\sprint-eschool-troya\StudyGrowth\bin\Debug-windows-x86_64\StudyGrowth\StudyGrowth.exe

@@ -1,4 +1,4 @@
-#include "..//include/hwQuestions.h"
+﻿#include "..//include/hwQuestions.h"
 
 
 
@@ -13,7 +13,7 @@ vector<pair<string, string>> programmingQuestions = {
     {"Which symbol is used for single-line comments in Python?", "#"},
     {"Which keyword is used to create a class in Java?", "class"},
     {"What is the file extension for C++ header files?", ".h"},
-    {"What is the name of Java�s virtual machine?", "JVM"},
+    {"What is the name of Java’s virtual machine?", "JVM"},
     {"Which function is used to read input in C++?", "cin"},
     {"How do you define a list in Python?", "[]"},
     {"What is the main loop structure in JavaScript?", "for"},
@@ -171,3 +171,55 @@ vector<pair<string, string>> automationQuestions = {
     {"What are some common programming languages used in automation?", "Ladder Logic, Python, C++"}
 };
 
+vector<pair<string, string>> networkingQuestions = {
+    {"What is the main function of a router?", "To forward data between networks"},
+    {"What is the difference between a switch and a hub?", "A switch sends data only to the intended device, a hub sends to all"},
+    {"What does DHCP stand for?", "Dynamic Host Configuration Protocol"},
+    {"What is a VLAN used for?", "To create separate networks within a switch"},
+    {"What are the main IP address classes?", "A, B, C, D, E"},
+    {"What does NAT do?", "It allows multiple devices to share one public IP"},
+    {"What does QoS mean in networking?", "Quality of Service – prioritizing network traffic"},
+    {"What is the OSI model?", "A 7-layer model for network communication"},
+    {"How is TCP different from UDP?", "TCP is reliable, UDP is faster but unreliable"},
+    {"What is CIDR notation used for?", "Flexible allocation of IP addresses"},
+    {"What is the purpose of STP (Spanning Tree Protocol)?", "To prevent network loops"},
+    {"How do you configure a MikroTik router?", "Using WinBox or command line"},
+    {"What is VPN and what types exist?", "A Virtual Private Network, types: PPTP, L2TP, OpenVPN, IPSec"},
+    {"What does SNMP do?", "Monitors network devices"},
+    {"What is a firewall used for?", "To filter and protect network traffic"},
+};
+vector<pair<string, string>> operatingSystemsQuestions = {
+    {"What is the main difference between Windows Server and Linux?", "Windows Server is proprietary, Linux is open-source"},
+    {"How do you create a new user in Linux?", "Using adduser or useradd command"},
+    {"What is Active Directory used for?", "Managing users and resources in Windows Server"},
+    {"What are the main file systems in Linux?", "ext4, XFS, Btrfs"},
+    {"How do you change file permissions in Linux?", "Using chmod command"},
+    {"What does the 'ls' command do in Linux?", "Lists files and folders"},
+    {"What is PowerShell used for?", "Automation and scripting in Windows"},
+    {"What is a process in an operating system?", "A running program in memory"},
+    {"How is 'apt' different from 'yum'?", "apt is for Debian-based, yum is for RedHat-based systems"},
+    {"How do you restart a service in Windows Server?", "Using 'net stop/start' or 'Restart-Service'"},
+    {"What is the Linux Kernel?", "The core of the Linux operating system"},
+    {"What is the difference between a hard link and a soft link?", "Hard links point to inodes, soft links are shortcuts"},
+    {"How do you check system load in Linux?", "Using top or htop command"},
+    {"How do you set a static IP in Windows Server?", "Through Control Panel → Network settings"},
+    {"How do you install a package in Linux?", "Using apt install or yum install"},
+};
+
+vector<pair<string, string>> cloudComputingQuestions = {
+    {"What is cloud computing?", "Providing IT resources over the internet"},
+    {"What are the main cloud service models?", "IaaS, PaaS, SaaS"},
+    {"What is the difference between public and private cloud?", "Public is shared, private is for one organization"},
+    {"What is AWS EC2?", "A service for virtual servers in AWS"},
+    {"What is Google Cloud Compute Engine?", "A service for virtual machines in Google Cloud"},
+    {"What does AWS S3 do?", "Stores objects like files and databases"},
+    {"What is IAM in AWS used for?", "Managing user access and permissions"},
+    {"What is Kubernetes used for?", "Managing and automating containerized applications"},
+    {"What is the difference between serverless and traditional servers?", "Serverless scales automatically without manual management"},
+    {"What is AWS VPC?", "A private network inside AWS"},
+    {"What databases does Google Cloud offer?", "Cloud SQL, BigQuery, Firestore"},
+    {"How do you set up a Load Balancer in AWS?", "Using Elastic Load Balancer (ELB)"},
+    {"What is Google Cloud Functions?", "A serverless service for running code on demand"},
+    {"What is AWS Lambda?", "A serverless service for running code without a server"},
+    {"How do you secure cloud services?", "Using IAM, encryption, and network rules"},
+};

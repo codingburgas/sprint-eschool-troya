@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include "..//include/computerNetworks.h"
 #include "..//include/registrationForm.h"
+#include "..//include/hwComputerNetworks.h"
 #include <iostream>
 
 using namespace std;
@@ -28,7 +29,7 @@ void computerNetowkrs() {
         ClearBackground(RAYWHITE);
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            computerNetworkHomework();
         }
 
         // Draw background
@@ -96,7 +97,7 @@ void operatingSystems() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            operatingSystemsHomework();
         }
 
         // Draw background stretched to fill the screen
@@ -155,7 +156,7 @@ void cloudTechnologies() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            cloudComputingHomework();
         }
 
         // Draw background stretched to fill the screen
