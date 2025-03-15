@@ -96,6 +96,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\computerNetworks.cpp" />
     <ClCompile Include="src\registerandloginButtons.cpp" />
     <ClCompile Include="src\robotics.cpp" />
     <ClCompile Include="src\softwareEngineering.cpp" />
@@ -105,6 +106,7 @@
     <ClCompile Include="src\registrationForm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\computerNetworks.h" />
     <ClInclude Include="include\registerandloginButtons.h" />
     <ClInclude Include="include\robotics.h" />
     <ClInclude Include="include\softwareEngineering.h" />

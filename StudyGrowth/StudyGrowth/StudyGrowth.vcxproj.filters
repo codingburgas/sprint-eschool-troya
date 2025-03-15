@@ -8,6 +8,7 @@
     <ClCompile Include="src\registerandloginButtons.cpp" />
     <ClCompile Include="src\softwareEngineering.cpp" />
     <ClCompile Include="src\robotics.cpp" />
+    <ClCompile Include="src\computerNetworks.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\mainMenu.h" />
@@ -16,5 +17,6 @@
     <ClInclude Include="include\registerandloginButtons.h" />
     <ClInclude Include="include\softwareEngineering.h" />
     <ClInclude Include="include\robotics.h" />
+    <ClInclude Include="include\computerNetworks.h" />
   </ItemGroup>
 </Project>

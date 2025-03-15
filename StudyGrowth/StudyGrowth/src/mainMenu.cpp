@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include "..//include/mainMenu.h"
 #include "..//include/softwareEngineering.h"
+#include "..//include/computerNetworks.h"
 #include "..//include/robotics.h"
 #include <vector>
 #include <functional>
@@ -34,9 +35,9 @@ void mainMenu() {
         {{728, 293}, 50, machineLearning},
         {{427, 339}, 50, iot},
         {{700, 371}, 50, sensorsAutomation},
-        {{798, 308}, 50, programming},
-        {{856, 263}, 50, programming},
-        {{847, 352}, 50, programming},
+        {{798, 308}, 50, cloudTechnologies},
+        {{856, 263}, 50, operatingSystems},
+        {{847, 352}, 50, computerNetowkrs},
         {{831, 434}, 50, programming},
         {{934, 404}, 50, programming},
         {{916, 300}, 50, programming}
