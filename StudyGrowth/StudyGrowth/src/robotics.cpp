@@ -1,6 +1,7 @@
 ﻿#include "raylib.h"
 #include "..//include/robotics.h"
 #include "..//include/registrationForm.h"
+#include "..//include/hwRobotics.h"
 #include <iostream>
 
 using namespace std;
@@ -28,7 +29,7 @@ void sensorsAutomation() {
         ClearBackground(RAYWHITE);
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            automationHomework();
         }
 
         // Draw background
@@ -103,7 +104,7 @@ void iot() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            iotHomework();
         }
 
         // Draw background stretched to fill the screen
@@ -171,7 +172,7 @@ void machineLearning() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            machineLearningHomework();
         }
 
         // Draw background stretched to fill the screen
@@ -240,7 +241,7 @@ void robotProgramming() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            roboticsHomework();
         }
 
         // Draw background stretched to fill the screen

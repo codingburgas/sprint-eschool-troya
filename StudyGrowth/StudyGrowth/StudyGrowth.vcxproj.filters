@@ -12,6 +12,7 @@
     <ClCompile Include="src\webDesign.cpp" />
     <ClCompile Include="src\hwSoftwareEngineering.cpp" />
     <ClCompile Include="src\hwQuestions.cpp" />
+    <ClCompile Include="src\hwRobotics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\mainMenu.h" />
@@ -24,5 +25,6 @@
     <ClInclude Include="include\webDesign.h" />
     <ClInclude Include="include\hwQuestions.h" />
     <ClInclude Include="include\hwSoftwareEngineering.h" />
+    <ClInclude Include="include\hwRobotics.h" />
   </ItemGroup>
 </Project>

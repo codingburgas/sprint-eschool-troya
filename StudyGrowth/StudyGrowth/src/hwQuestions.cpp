@@ -170,3 +170,4 @@ vector<pair<string, string>> automationQuestions = {
     {"What is the difference between analog and digital sensors?", "Analog provides continuous signals, digital provides discrete signals"},
     {"What are some common programming languages used in automation?", "Ladder Logic, Python, C++"}
 };
+
