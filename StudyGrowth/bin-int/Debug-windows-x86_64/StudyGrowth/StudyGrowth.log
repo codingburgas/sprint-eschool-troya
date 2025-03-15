@@ -1,4 +1,9 @@
-﻿  computerNetworks.cpp
+﻿  softwareEngineering.cpp
+C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\StudyGrowth\src\softwareEngineering.cpp(239,18): warning C4566: character represented by universal-character-name '\u2192' cannot be represented in the current code page (1251)
+  mainMenu.cpp
+  webDesign.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   StudyGrowth.vcxproj -> C:\Users\User\Desktop\sprint-eschool-troya\StudyGrowth\bin\Debug-windows-x86_64\StudyGrowth\StudyGrowth.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

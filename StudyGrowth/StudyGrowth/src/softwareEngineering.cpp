@@ -302,12 +302,6 @@ void algorithms() {
         DrawText("4. Algorithm Complexity (Big-O Notation):", 120, 620, 28, WHITE);
         DrawText("-Measures efficiency of an algorithm in terms of time and space;", 120, 660, 28, WHITE);
         DrawText("-Common complexities: O(1), O(log n), O(n), O(n log n), O(n^2);", 120, 700, 28, WHITE);
-        DrawText("5. Algorithm Design Techniques:", 120, 740, 28, WHITE);
-        DrawText("-Brute Force; Divide and Conquer; Greedy Algorithms;", 120, 780, 28, WHITE);
-        DrawText("-Dynamic Programming; Backtracking;", 120, 820, 28, WHITE);
-        DrawText("6. Importance of Algorithms:", 120, 860, 28, WHITE);
-        DrawText("-Improve efficiency and performance in programming;", 120, 900, 28, WHITE);
-        DrawText("-Essential for competitive programming & technical interviews;", 120, 940, 28, WHITE);
 
 
         EndDrawing();

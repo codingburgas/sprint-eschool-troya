@@ -104,6 +104,7 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\mainMenu.cpp" />
     <ClCompile Include="src\registrationForm.cpp" />
+    <ClCompile Include="src\webDesign.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\computerNetworks.h" />
@@ -113,6 +114,7 @@
     <ClInclude Include="include\startandexitButtons.h" />
     <ClInclude Include="include\mainMenu.h" />
     <ClInclude Include="include\registrationForm.h" />
+    <ClInclude Include="include\webDesign.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

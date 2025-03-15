@@ -2,6 +2,7 @@
 #include "..//include/mainMenu.h"
 #include "..//include/softwareEngineering.h"
 #include "..//include/computerNetworks.h"
+#include "..//include/webDesign.h"
 #include "..//include/robotics.h"
 #include <vector>
 #include <functional>
@@ -38,9 +39,9 @@ void mainMenu() {
         {{798, 308}, 50, cloudTechnologies},
         {{856, 263}, 50, operatingSystems},
         {{847, 352}, 50, computerNetowkrs},
-        {{831, 434}, 50, programming},
-        {{934, 404}, 50, programming},
-        {{916, 300}, 50, programming}
+        {{831, 434}, 50, graphicDesign},
+        {{934, 404}, 50, webDesign},
+        {{916, 300}, 50, animation}
     };
 
     SetTargetFPS(60);
