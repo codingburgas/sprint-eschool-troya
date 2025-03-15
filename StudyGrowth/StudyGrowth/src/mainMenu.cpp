@@ -4,6 +4,7 @@
 #include "..//include/computerNetworks.h"
 #include "..//include/webDesign.h"
 #include "..//include/robotics.h"
+#include "..//include/searchBar.h"
 #include <vector>
 #include <functional>
 #include "raymath.h"
@@ -49,6 +50,9 @@ void mainMenu() {
         BeginDrawing();
         ClearBackground(RAYWHITE);
         DrawTexture(texture, 0, 0, WHITE);
+
+        // Show the search bar in the top-left corner
+        searchBar();
 
         if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             Vector2 mousePos = GetMousePosition();
