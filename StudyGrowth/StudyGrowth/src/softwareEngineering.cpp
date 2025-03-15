@@ -1,6 +1,7 @@
 ﻿#include "raylib.h"
 #include "..//include/softwareEngineering.h"
 #include "..//include/registrationForm.h"
+#include "..//include/hwSoftwareEngineering.h"
 #include <iostream>
 
 using namespace std;
@@ -28,7 +29,7 @@ void programming() {
         ClearBackground(RAYWHITE);
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            programmingHomework();
         }
 
         // Draw background
@@ -92,7 +93,7 @@ void databases() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            databaseHomework();
         }
 
         // Draw background stretched to fill the screen
@@ -152,7 +153,7 @@ void webDevelopment() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            webDevelopmentHomework();
         }
 
         // Draw background stretched to fill the screen
@@ -212,7 +213,7 @@ void softwareDevelopment() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            softwareDevelopmentHomework();
         }
 
         // Draw background stretched to fill the screen
@@ -275,7 +276,7 @@ void algorithms() {
 
         Vector2 mousePos = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
-            loginForm();
+            algorithmsHomework();
         }
 
         // Draw background stretched to fill the screen

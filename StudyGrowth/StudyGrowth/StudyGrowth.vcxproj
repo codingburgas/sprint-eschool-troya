@@ -97,6 +97,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\computerNetworks.cpp" />
+    <ClCompile Include="src\hwQuestions.cpp" />
+    <ClCompile Include="src\hwSoftwareEngineering.cpp" />
     <ClCompile Include="src\registerandloginButtons.cpp" />
     <ClCompile Include="src\robotics.cpp" />
     <ClCompile Include="src\softwareEngineering.cpp" />
@@ -108,6 +110,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\computerNetworks.h" />
+    <ClInclude Include="include\hwQuestions.h" />
+    <ClInclude Include="include\hwSoftwareEngineering.h" />
     <ClInclude Include="include\registerandloginButtons.h" />
     <ClInclude Include="include\robotics.h" />
     <ClInclude Include="include\softwareEngineering.h" />

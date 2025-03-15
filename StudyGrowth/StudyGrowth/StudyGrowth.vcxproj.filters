@@ -10,6 +10,8 @@
     <ClCompile Include="src\robotics.cpp" />
     <ClCompile Include="src\computerNetworks.cpp" />
     <ClCompile Include="src\webDesign.cpp" />
+    <ClCompile Include="src\hwSoftwareEngineering.cpp" />
+    <ClCompile Include="src\hwQuestions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\mainMenu.h" />
@@ -20,5 +22,7 @@
     <ClInclude Include="include\robotics.h" />
     <ClInclude Include="include\computerNetworks.h" />
     <ClInclude Include="include\webDesign.h" />
+    <ClInclude Include="include\hwQuestions.h" />
+    <ClInclude Include="include\hwSoftwareEngineering.h" />
   </ItemGroup>
 </Project>
