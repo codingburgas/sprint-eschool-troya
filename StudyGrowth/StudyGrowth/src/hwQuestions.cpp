@@ -223,3 +223,57 @@ vector<pair<string, string>> cloudComputingQuestions = {
     {"What is AWS Lambda?", "A serverless service for running code without a server"},
     {"How do you secure cloud services?", "Using IAM, encryption, and network rules"},
 };
+
+vector<pair<string, string>> graphicDesignQuestions = {
+    {"What is raster vs. vector?", "Raster = pixels, Vector = scalable."},
+    {"What is CMYK used for?", "Printing."},
+    {"What does DPI affect?", "Print sharpness."},
+    {"What is kerning?", "Space between letters."},
+    {"What is tracking?", "Spacing across words."},
+    {"What is leading?", "Spacing between lines."},
+    {"What is the rule of thirds?", "3x3 grid for balance."},
+    {"RGB vs CMYK?", "RGB = screens, CMYK = print."},
+    {"How do layers help in design?", "Organize elements separately."},
+    {"What is a mockup?", "A preview of a design."},
+    {"What is vectorization?", "Convert pixels to paths."},
+    {"What is negative space?", "Empty space in design."},
+    {"What are complementary colors?", "Opposite on the color wheel."},
+    {"What is a brand identity?", "Logo, colors, typography."},
+    {"What is typography?", "The style of text."}
+};
+
+vector<pair<string, string>> webDesignQuestions = {
+    {"HTML vs HTML5?", "HTML5 has new features."},
+    {"What is CSS used for?", "Styling web pages."},
+    {"What does JavaScript do?", "Adds interactivity."},
+    {"What is responsive design?", "Adapts to screen sizes."},
+    {"What are media queries?", "CSS for different screens."},
+    {"What is UX?", "User experience."},
+    {"What is absolute vs. relative positioning?", "Absolute = fixed, Relative = adjustable."},
+    {"What is a wireframe?", "Website layout sketch."},
+    {"Why is website speed important?", "SEO and user retention."},
+    {"What is a favicon?", "Small icon for websites."},
+    {"What is a landing page?", "A conversion-focused page."},
+    {"What is front-end vs. back-end?", "Front = UI, Back = data."},
+    {"What is mobile-first design?", "Design for mobile first."},
+    {"What is a CDN?", "Speeds up content delivery."},
+    {"What is accessibility in web design?", "Making sites usable for all."}
+};
+
+vector<pair<string, string>> animationQuestions = {
+    {"2D vs 3D animation?", "2D = flat, 3D = depth."},
+    {"What are keyframes?", "Main animation frames."},
+    {"What is tweening?", "Smooth transition between frames."},
+    {"What is squash and stretch?", "Exaggerated movement principle."},
+    {"What is frame rate?", "Frames per second."},
+    {"What is motion capture?", "Recording real-life movement."},
+    {"What is rigging?", "Adding bones to a model."},
+    {"What is a storyboard?", "Visual plan of animation."},
+    {"What is onion skinning?", "See multiple frames at once."},
+    {"What is a parallax effect?", "Different layers move at different speeds."},
+    {"What is rotoscoping?", "Tracing over real footage."},
+    {"What does lighting do in animation?", "Adds mood and realism."},
+    {"What is anticipation in animation?", "Small movement before action."},
+    {"What is easing in animation?", "Controls motion speed."},
+    {"What is stop motion?", "Frame-by-frame real object movement."}
+};

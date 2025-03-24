@@ -1,5 +1,6 @@
 #include "..//include/hwRobotics.h"
 #include "..//include/hwQuestions.h"
+#include "..//include/robotics.h"
 #include "raylib.h"
 #include <vector>
 #include <string>
@@ -9,7 +10,7 @@
 using namespace std;
 
 void roboticsHomework() {
-    InitWindow(800, 800, "Programming Homework");
+    InitWindow(700, 450, "Programming Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -27,9 +28,15 @@ void roboticsHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            robotProgramming();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -74,7 +81,7 @@ void roboticsHomework() {
 }
 
 void machineLearningHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -91,10 +98,15 @@ void machineLearningHomework() {
     int correctAnswers = 0;
     char inputBuffer[50] = "";
     int letterCount = 0;
-
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            machineLearning();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -140,7 +152,7 @@ void machineLearningHomework() {
 
 
 void iotHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -158,9 +170,15 @@ void iotHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            iot();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -206,7 +224,7 @@ void iotHomework() {
 
 
 void automationHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -223,10 +241,15 @@ void automationHomework() {
     int correctAnswers = 0;
     char inputBuffer[50] = "";
     int letterCount = 0;
-
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            sensorsAutomation();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {

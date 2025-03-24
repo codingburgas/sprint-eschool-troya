@@ -1,6 +1,6 @@
 #include "raylib.h"
 #include "..//include/computerNetworks.h"
-#include "..//include/registrationForm.h"
+#include "..//include/mainMenu.h"
 #include "..//include/hwComputerNetworks.h"
 #include <iostream>
 
@@ -23,13 +23,19 @@ void computerNetowkrs() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 614, 364, 100, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             computerNetworkHomework();
+        }
+        if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background
@@ -90,15 +96,21 @@ void operatingSystems() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             operatingSystemsHomework();
         }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
+        }
+
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
@@ -149,15 +161,21 @@ void cloudTechnologies() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             cloudComputingHomework();
         }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
+        }
+
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,

@@ -1,6 +1,6 @@
 ﻿#include "raylib.h"
 #include "..//include/softwareEngineering.h"
-#include "..//include/registrationForm.h"
+#include "..//include/mainMenu.h"
 #include "..//include/hwSoftwareEngineering.h"
 #include <iostream>
 
@@ -23,14 +23,21 @@ void programming() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             programmingHomework();
         }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
+        }
+
 
         // Draw background
         DrawTexturePro(boardTexture,
@@ -86,15 +93,21 @@ void databases() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             databaseHomework();
         }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
+        }
+
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
@@ -146,14 +159,19 @@ void webDevelopment() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             webDevelopmentHomework();
+        }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background stretched to fill the screen
@@ -206,15 +224,21 @@ void softwareDevelopment() {
 
     SetTargetFPS(60);
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             softwareDevelopmentHomework();
         }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
+        }
+
 
         // Draw background stretched to fill the screen
         DrawTexturePro(boardTexture,
@@ -269,14 +293,19 @@ void algorithms() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             algorithmsHomework();
+        }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background stretched to fill the screen

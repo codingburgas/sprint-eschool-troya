@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\webDesign.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\webDesign.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwWebDesign.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\include\\hwWebDesign.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwWebDesign.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\hwWebDesign.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwQuestions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\include\\hwQuestions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\robotics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\robotics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwQuestions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\include\\hwQuestions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwSoftwareEngineering.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -52,62 +68,71 @@
         },
         {
           "DockedHeight": 50,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "robotics.cpp",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
-              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
-              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-15T15:13:21.938Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "hwRobotics.h",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
-              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
-              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Title": "hwWebDesign.h",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwWebDesign.h",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\hwWebDesign.h",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwWebDesign.h",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\include\\hwWebDesign.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-15T15:07:29.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "hwRobotics.cpp",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
-              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
-              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
-              "ViewState": "AQIAABEBAAAAAAAAAAAAABEBAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-15T15:07:19.612Z",
+              "WhenOpened": "2025-03-24T17:05:06.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "softwareEngineering.cpp",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
-              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
-              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA+AAAA",
+              "Title": "startandexitButtons.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\startandexitButtons.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-15T14:41:55.904Z",
+              "WhenOpened": "2025-03-24T17:04:17.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "webDesign.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\webDesign.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\webDesign.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\webDesign.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\webDesign.cpp",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T17:02:07.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hwWebDesign.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwWebDesign.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\hwWebDesign.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwWebDesign.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\hwWebDesign.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T16:59:11.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "robotics.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\robotics.cpp",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAcwB0BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-15T15:13:21.938Z",
               "EditorCaption": ""
             },
             {
@@ -118,14 +143,14 @@
               "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp",
               "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp",
               "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\hwSoftwareEngineering.cpp",
-              "ViewState": "AQIAAB8BAAAAAAAAAAAAACYBAAAiAAAA",
+              "ViewState": "AQIAACoBAAAAAAAAAAAswFABAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T14:39:52.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "hwSoftwareEngineering.h",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwSoftwareEngineering.h",
               "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\hwSoftwareEngineering.h",
@@ -137,29 +162,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "hwQuestions.h",
-              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
-              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
-              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
-              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-15T14:39:16.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "hwQuestions.cpp",
               "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp",
               "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp",
               "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp",
               "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\hwQuestions.cpp",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAJsAAAAxAAAA",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAswOIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-15T14:39:04.442Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "hwQuestions.h",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\include\\hwQuestions.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-15T14:39:16.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "softwareEngineering.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\softwareEngineering.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-15T14:41:55.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "hwRobotics.cpp",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\src\\hwRobotics.cpp",
+              "ViewState": "AQIAABEBAAAAAAAAAAAAABEBAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-15T15:07:19.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "hwRobotics.h",
+              "DocumentMoniker": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
+              "RelativeDocumentMoniker": "StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
+              "ToolTip": "D:\\PC\\Documents\\Downloads\\sprint-eschool-troya\\StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
+              "RelativeToolTip": "StudyGrowth\\StudyGrowth\\include\\hwRobotics.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-15T15:07:29.27Z"
             }
           ]
         }

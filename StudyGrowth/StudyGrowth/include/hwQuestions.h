@@ -18,3 +18,6 @@ extern vector<pair<string, string>> automationQuestions;
 extern vector<pair<string, string>> networkingQuestions;
 extern vector<pair<string, string>> operatingSystemsQuestions;
 extern vector<pair<string, string>> cloudComputingQuestions;
+extern vector<pair<string, string>> graphicDesignQuestions;
+extern vector<pair<string, string>> webDesignQuestions;
+extern vector<pair<string, string>> animationQuestions;

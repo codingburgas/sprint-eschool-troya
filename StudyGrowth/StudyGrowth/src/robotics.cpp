@@ -2,6 +2,7 @@
 #include "..//include/robotics.h"
 #include "..//include/registrationForm.h"
 #include "..//include/hwRobotics.h"
+#include "..//include/mainMenu.h"
 #include <iostream>
 
 using namespace std;
@@ -23,13 +24,19 @@ void sensorsAutomation() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             automationHomework();
+        }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background
@@ -97,14 +104,19 @@ void iot() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             iotHomework();
+        }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background stretched to fill the screen
@@ -165,14 +177,19 @@ void machineLearning() {
     SetTargetFPS(60);
 
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             machineLearningHomework();
+        }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background stretched to fill the screen
@@ -234,14 +251,19 @@ void robotProgramming() {
 
     SetTargetFPS(60);
     Rectangle rect = { 1035, 800, 220, 80 };
+    Rectangle rect2 = { 616, 363, 115, 40 };
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
         Vector2 mousePos = GetMousePosition();
+        Vector2 mousePos2 = GetMousePosition();
         if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             roboticsHomework();
+        }
+        else if (CheckCollisionPointRec(mousePos2, rect2) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        {
+            mainMenu();
         }
 
         // Draw background stretched to fill the screen

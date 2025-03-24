@@ -1,5 +1,6 @@
 #include "..//include/hwSoftwareEngineering.h"
 #include "..//include/hwQuestions.h"
+#include "..//include/softwareEngineering.h"
 #include "raylib.h"
 #include <vector>
 #include <string>
@@ -9,7 +10,7 @@
 using namespace std; 
 
 void programmingHomework() {
-    InitWindow(800, 800, "Programming Homework");
+    InitWindow(700, 450, "Programming Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -27,9 +28,15 @@ void programmingHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            programming();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -74,7 +81,7 @@ void programmingHomework() {
 }
 
 void softwareDevelopmentHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -92,9 +99,15 @@ void softwareDevelopmentHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            softwareDevelopment();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -140,7 +153,7 @@ void softwareDevelopmentHomework() {
 
 
 void databaseHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -158,9 +171,15 @@ void databaseHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            databases();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -206,7 +225,7 @@ void databaseHomework() {
 
 
 void webDevelopmentHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -224,9 +243,15 @@ void webDevelopmentHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            webDevelopment();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -272,7 +297,7 @@ void webDevelopmentHomework() {
 
 
 void algorithmsHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -290,9 +315,15 @@ void algorithmsHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            algorithms();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {

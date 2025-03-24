@@ -1,5 +1,6 @@
 #include "..//include/hwComputerNetworks.h"
 #include "..//include/hwQuestions.h"
+#include "..//include/computerNetworks.h"
 #include "raylib.h"
 #include <vector>
 #include <string>
@@ -9,7 +10,7 @@
 using namespace std;
 
 void computerNetworkHomework() {
-    InitWindow(800, 800, "Programming Homework");
+    InitWindow(700, 450, "Programming Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -27,9 +28,15 @@ void computerNetworkHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            computerNetowkrs();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -74,7 +81,7 @@ void computerNetworkHomework() {
 }
 
 void operatingSystemsHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -92,9 +99,15 @@ void operatingSystemsHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            operatingSystems();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
@@ -140,7 +153,7 @@ void operatingSystemsHomework() {
 
 
 void cloudComputingHomework() {
-    InitWindow(800, 800, "Software Development Homework");
+    InitWindow(700, 450, "Software Development Homework");
     Texture2D background = LoadTexture("assets/homework.png");
 
     vector<pair<string, string>> selectedQuestions;
@@ -158,9 +171,15 @@ void cloudComputingHomework() {
     char inputBuffer[50] = "";
     int letterCount = 0;
 
+    Rectangle rect = { 626, 414, 88, 44 };
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(RAYWHITE);
+
+        Vector2 mousePos = GetMousePosition();
+        if (CheckCollisionPointRec(mousePos, rect) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
+            cloudTechnologies();
+        }
         DrawTexture(background, 0, 0, WHITE);
 
         if (!showResult) {
